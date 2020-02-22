@@ -1,0 +1,53 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Lato", Verdana, sans-serif;
+}
+
+.wrapper {
+    width: 1024px;
+    
+}
+
+.header {
+    background-color: #2d303a;
+    border-bottom: solid 10px #323746;
+    color: #f2f2f2;
+    
+}
+
+.Slider_block {
+    background-color: #f06c64;
+    border-bottom: solid 10px #ea676b;
+}
+
+.Services_block {
+    background-color: #f2f2f2;
+    color: #666d89;
+}
+
+.navigation {
+    display: flex;
+
+}
+
+.Sevices_block__container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+}
+
+.Sevices_block__child {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+li:hover {
+    color: #f06c64
+}
